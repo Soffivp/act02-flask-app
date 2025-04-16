@@ -1,7 +1,6 @@
 from flask import Flask
 from datetime import datetime
-import requests  # Necesario para leer el archivo desde la URL
-
+import request
 app = Flask(__name__)
 
 @app.route('/')
