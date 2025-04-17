@@ -34,7 +34,7 @@ def home():
         tabla_html += "</table>"
 
         # Combinar el saludo y la tabla
-        return f'¡Hola, mundo! <b>{fecha_formateada}</b><br><br>{tabla_html}'
+        return f'¡Hola a todos, bienvenidos! <b>{fecha_formateada}</b><br><br>{tabla_html}'
     else:
         return f"Error al obtener los datos: {response.status_code}"
 
