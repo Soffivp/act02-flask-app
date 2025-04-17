@@ -1,6 +1,6 @@
 from flask import Flask
 from datetime import datetime
-import request
+import requests
 app = Flask(__name__)
 
 @app.route('/')
